@@ -1,0 +1,12 @@
+.selected{
+    display: flex;
+    width: 320px;
+    height: 40px;
+    gap: 16px;
+    white-space:nowrap;
+    padding-top: 10px;
+
+}
+.scrolls__container >div{
+    width: 110%;
+}

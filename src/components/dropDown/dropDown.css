@@ -1,0 +1,18 @@
+.container{
+    width: 320px;
+    height: 344px;
+    border-radius: 12px;
+    border: 1px;
+    opacity:0;
+    animation: show 2s 1;
+    animation-fill-mode: forwards;
+    animation-delay: 0.1s;
+}
+@keyframes show {
+    0%{
+        opacity:0;
+    }
+    100% {
+        opacity:1;
+    }
+}

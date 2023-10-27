@@ -1,0 +1,13 @@
+.tabs{
+    width: 320px;
+    height: 40px;
+    gap: 16px;
+    border-bottom:1px solid #07000F1A ;
+
+}
+.tabs__container{
+    margin-left: 20px;
+    display: flex;
+    gap: 16px;
+
+}

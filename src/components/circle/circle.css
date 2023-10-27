@@ -1,0 +1,33 @@
+.circle__button{
+    width: 32px;
+    height: 32px;
+    background: linear-gradient(0deg, #0067FE, #0067FE),
+    linear-gradient(0deg, rgba(7, 0, 15, 0.1), rgba(7, 0, 15, 0.1));
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity:0;
+    animation: show 0.7s 1;
+    animation-fill-mode: forwards;
+    animation-delay: 0.1s;
+    border: 1px solid #07000F1A
+
+}
+.circle__counter{
+    font-family: Roboto Condensed;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: -0.02em;
+    text-align: center;
+    color: #FFFFFF;
+}
+@keyframes show {
+    0%{
+        opacity:0;
+    }
+    100% {
+        opacity:1;
+    }
+}

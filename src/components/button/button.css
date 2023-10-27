@@ -1,0 +1,31 @@
+.button{
+    width: 320px;
+    height: 48px;
+    border-radius: 12px;
+    border: 1px solid #07000F1A;
+    padding: 0px 8px 0px 16px;
+    gap: 8px;
+    display: flex;
+    align-items: center;
+    transition: background 9999999s;
+    justify-content: space-between;
+
+}
+.button:hover {
+    border: 1px solid #07000F66
+}
+.isActive {
+    border: 1px solid #07000F66;
+    transition: background 0s;
+}
+.button__span{
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 100%;
+    font-weight:bold;
+    margin-left: 10px;
+}
+.button__container{
+    display: flex;
+    justify-content: space-between;
+}

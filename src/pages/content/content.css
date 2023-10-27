@@ -1,0 +1,15 @@
+.content {
+    width: 320px;
+    height: 424px;
+    margin: 0 auto;
+    padding: 20px;
+
+}
+.label{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 150%;
+    font-family: Arial;
+    letter-spacing: -0.01em;
+    text-align: left;
+}
